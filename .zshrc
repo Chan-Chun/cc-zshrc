@@ -47,7 +47,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-syntax-highlighting)
+plugins=(git autojump zsh-syntax-highlighting web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -113,8 +113,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # mvim
 alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
-
-# proxy
-alias ssproxy='export all_proxy=socks5://127.0.0.1:1086'
-alias ssunproxy='unset all_proxy'
-
