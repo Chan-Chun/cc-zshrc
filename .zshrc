@@ -113,3 +113,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # mvim
 alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+
+# ctags
+alias ctags="brew –prefix/bin/ctags"
