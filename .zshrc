@@ -116,3 +116,6 @@ alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
 # ctags
 alias ctags="brew –prefix/bin/ctags"
+
+# gvm
+[[ -s "/Users/junyi/.gvm/scripts/gvm" ]] && source "/Users/junyi/.gvm/scripts/gvm"
