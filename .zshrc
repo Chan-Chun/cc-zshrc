@@ -1,5 +1,5 @@
 # ZSH的环境变量
-export ZSH=/Users/apple/.oh-my-zsh
+export ZSH=/Users/chanchun/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -115,7 +115,11 @@ export NVM_DIR="$HOME/.nvm"
 alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
 # ctags
-alias ctags="brew –prefix/bin/ctags"
+# alias ctags="brew –prefix/bin/ctags"
 
 # gvm
-[[ -s "/Users/junyi/.gvm/scripts/gvm" ]] && source "/Users/junyi/.gvm/scripts/gvm"
+# [[ -s "/Users/junyi/.gvm/scripts/gvm" ]] && source "/Users/junyi/.gvm/scripts/gvm"
+
+# proxy
+alias setproxy= 'ALL_PROXY=socks5://127.0.0.1:1086'
+alias unsetproxy= 'unset ALL_PROXY'
