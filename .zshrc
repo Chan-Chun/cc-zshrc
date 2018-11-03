@@ -123,3 +123,6 @@ alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 # proxy
 alias setproxy= 'ALL_PROXY=socks5://127.0.0.1:1086'
 alias unsetproxy= 'unset ALL_PROXY'
+
+# Find TODO
+alias todo="ag TODO"
