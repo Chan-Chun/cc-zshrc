@@ -8,7 +8,6 @@ ZSH_THEME="robbyrussell"
 
 # 如果想要大小写敏感
 # CASE_SENSITIVE="true"
-
 # 如果想要连接符不敏感
 # HYPHEN_INSENSITIVE="true"
 
@@ -107,6 +106,9 @@ export NVM_DIR="$HOME/.nvm"
 # export GRADLE_PATH=/usr/local/Cellar/gradle/5.2.1
 # export GRADLE_USER_HOME=/Users/apple/.gradle
 # export PATH=$GRADLE_PATH/bin:$PATH
+
+# maven
+export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH
 
 # rvm
 # export PATH="$PATH:$HOME/.rvm/bin"
