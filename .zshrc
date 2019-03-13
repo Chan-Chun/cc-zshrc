@@ -104,7 +104,7 @@ export NVM_DIR="$HOME/.nvm"
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 
 # gradle
-# export GRADLE_PATH=/Users/apple/.gradle/wrapper/dists/gradle-4.1-all/bzyivzo6n839fup2jbap0tjew/gradle-4.1
+# export GRADLE_PATH=/usr/local/Cellar/gradle/5.2.1
 # export GRADLE_USER_HOME=/Users/apple/.gradle
 # export PATH=$GRADLE_PATH/bin:$PATH
 
@@ -118,7 +118,7 @@ alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 # alias ctags="brew –prefix/bin/ctags"
 
 # gvm
-# [[ -s "/Users/junyi/.gvm/scripts/gvm" ]] && source "/Users/junyi/.gvm/scripts/gvm"
+# [[ -s "/Users/apple/.gvm/scripts/gvm" ]] && source "/Users/apple/.gvm/scripts/gvm"
 
 # proxy
 alias setproxy= 'ALL_PROXY=socks5://127.0.0.1:1086'
