@@ -1,5 +1,5 @@
 # ZSH的环境变量
-export ZSH=/Users/chanchun/.oh-my-zsh
+export ZSH=/Users/chenjun/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -46,7 +46,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-syntax-highlighting web-search)
+plugins=(git autojump web-search)
 
 source $ZSH/oh-my-zsh.sh
 
