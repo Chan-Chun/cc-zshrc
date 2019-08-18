@@ -97,14 +97,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 # android
-# export ANDROID_HOME=/Users/apple/Library/Android/sdk
+# export ANDROID_HOME=/Users/chenjun/Library/Android/sdk
 
 # java
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home
 
 # gradle
 # export GRADLE_PATH=/usr/local/Cellar/gradle/5.2.1
-# export GRADLE_USER_HOME=/Users/apple/.gradle
+# export GRADLE_USER_HOME=/Users/chenjun/.gradle
 # export PATH=$GRADLE_PATH/bin:$PATH
 
 # maven
@@ -120,7 +120,7 @@ alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 # alias ctags="brew –prefix/bin/ctags"
 
 # gvm
-# [[ -s "/Users/apple/.gvm/scripts/gvm" ]] && source "/Users/apple/.gvm/scripts/gvm"
+# [[ -s "/Users/chenjun/.gvm/scripts/gvm" ]] && source "/Users/chenjun/.gvm/scripts/gvm"
 
 # proxy
 alias setproxy= 'ALL_PROXY=socks5://127.0.0.1:1086'
