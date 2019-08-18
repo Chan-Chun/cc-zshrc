@@ -128,3 +128,7 @@ alias unsetproxy= 'unset ALL_PROXY'
 
 # Find TODO
 alias todo="ag TODO"
+
+# GO
+export GOPATH=$HOME/go
+
