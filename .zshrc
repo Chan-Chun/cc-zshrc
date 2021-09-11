@@ -114,7 +114,7 @@ export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH
 # export PATH="$PATH:$HOME/.rvm/bin"
 
 # mvim
-alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
+# alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
 # ctags
 # alias ctags="brew –prefix/bin/ctags"
@@ -123,7 +123,7 @@ alias mvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 # [[ -s "/Users/chenjun/.gvm/scripts/gvm" ]] && source "/Users/chenjun/.gvm/scripts/gvm"
 
 # proxy
-alias setproxy='export ALL_PROXY=socks5://127.0.0.1:1086'
+alias setproxy='export ALL_PROXY=socks5://127.0.0.1:8119'
 alias unsetproxy='unset ALL_PROXY'
 
 # Find TODO
@@ -132,3 +132,5 @@ alias todo="ag TODO"
 # GO
 export GOPATH=$HOME/go
 
+#brew
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
