@@ -84,10 +84,10 @@ export LSCOLORS=gxfxaxdxcxegedabagacad
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /opt/homebrew/Cellar/zsh-syntax-highlighting/0.8.0/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # zsh-autosuggestions
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/Cellar/zsh-autosuggestions/0.7.1/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # fuck
 # eval $(thefuck --alias)
@@ -125,6 +125,9 @@ export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH
 # proxy
 alias setproxy='export ALL_PROXY=socks5://127.0.0.1:8119'
 alias unsetproxy='unset ALL_PROXY'
+
+alias sethttpproxy='export https_proxy=http://127.0.0.1:8118 && export http_proxy=http://127.0.0.1:8118'
+alias unsethttpproxy='unset https_proxy && unset http_proxy'
 
 # Find TODO
 alias todo="ag TODO"
